@@ -7,11 +7,16 @@
 // );
 // code should be simple and easily readable
 
-console.log(dheeraj);
+// console.log(dheeraj);
 
 let name = "dheeraj"
 let age = 18
 let isLoggedin = false 
+
+console.table([name, age, isLoggedin]);
+
+
+
 
 
 // some types of datatypes
