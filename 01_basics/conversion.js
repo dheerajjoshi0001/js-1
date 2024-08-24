@@ -1,21 +1,25 @@
-let score = "11ab"
+let score = 11;
+console.log(typeof score); // Output: number (not string)
+console.log(typeof(score)); // Output: number (not string)
 
-console.log(typeof score);
-console.log(typeof (score))
+// Updating the value of score (no need to redeclare with let)
 
-let valueinnumber = number (score)
-console.log(typeof valueinnumber);
-console.log(valueinnumber);
+let target = 12
 
-// "33"=33
-// "33ab"=NaN
-// true = 1 , false = 0
+let valueinnumber = String(target);
+console.log(typeof valueinnumber); // Output: number
+console.log(valueinnumber); // Output: 12 (since "12" is a valid number)
 
-let isLoggedin = 1
- 
-let bolleanisloggedin = Boolean(isLoggedin)
-console.log(BooleanisLoggedin);
-// gives a value true
+// "33" = 33
+// "33ab" = NaN
+// true = 1, false = 0
+
+let isLoggedin = 1;
+
+let bolleanisloggedin = Boolean(isLoggedin);
+console.log(bolleanisloggedin); // Output: true (because 1 is truthy in JavaScript)
+
+
 
 
 
