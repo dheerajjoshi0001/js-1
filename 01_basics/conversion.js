@@ -6,11 +6,7 @@ console.log(typeof(score)); // Output: number (not string)
 
 let target = 12
 
-let valueinnumber = String(target);
-console.log(typeof valueinnumber); // Output: number
-console.log(valueinnumber); // Output: 12 (since "12" is a valid number)
 
-// "33" = 33
 // "33ab" = NaN
 // true = 1, false = 0
 
